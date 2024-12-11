@@ -1,0 +1,74 @@
+#app-container {
+    --dark-material-primary: rgb(22, 22, 30);
+    --dark-material-secondary: rgb(22, 22, 30);
+    --dark-material-tertiary: #1a1b25;
+    --dark-material-quaternary: #17171f;
+    --dark-material-quinary: #17171f;
+    --dark-material-senary: #17171f;
+    --dark-base-light-grey: rgb(16, 16, 20);
+    --dark-base-lighter-grey: rgba(16, 16, 20, 0.4);
+}
+
+#app-container {
+    --bg-active: #202330 !important;
+    --bg-hover: #13131a !important;
+}
+
+.segmented-control__item.active {
+    background-color: var(--bg-secondary);
+}
+
+.codeview {
+    --color-prettylights-syntax-comment: #61688a;
+    --color-prettylights-syntax-constant: #c0caf5;
+    --color-prettylights-syntax-entity: #7aa2f7;
+    --color-prettylights-syntax-storage-modifier-import: #0db9d7;
+    --color-prettylights-syntax-entity-tag: #78dce8;
+    --color-prettylights-syntax-keyword: #7dcfff;
+    --color-prettylights-syntax-string: #9ece6a;
+    --color-prettylights-syntax-variable: #73daca;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f07178;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #78dce8;
+    --color-prettylights-syntax-markup-italic: #c4a7e7;
+    --color-prettylights-syntax-markup-bold: #c4a7e7;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #8e1519;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #ea9a97;
+    --color-prettylights-syntax-brackethighlighter-angle: #a9b1d6;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+}
+
+.lang-css,
+.lang-sass,
+.lang-scss,
+.lang-less,
+.lang-stylus {
+    --color-prettylights-syntax-keyword: #bb9af7;
+    --color-prettylights-syntax-entity: #bb9af7;
+    --color-prettylights-syntax-variable: #c0caf5;
+}
+
+.workspace__container {
+    background-color: var(--dark-material-tertiary);
+}
+
+.sidebar {
+    background-color: var(--dark-material-secondary);
+}
+
+.codeview__line__content {
+    color: #9abdf5;
+}
